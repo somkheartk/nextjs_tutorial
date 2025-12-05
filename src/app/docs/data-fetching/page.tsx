@@ -216,16 +216,20 @@ export default function Profile() {
         language="tsx"
         code={`'use server';
 
+// สมมติว่า import prisma client หรือ database client อื่นๆ
+// import { db } from '@/lib/db';
+
 export async function createPost(formData: FormData) {
   const title = formData.get('title') as string;
   const content = formData.get('content') as string;
   
-  // บันทึกลงฐานข้อมูล
-  const post = await db.post.create({
-    data: { title, content }
-  });
+  // บันทึกลงฐานข้อมูล (ตัวอย่างใช้ Prisma)
+  // const post = await db.post.create({
+  //   data: { title, content }
+  // });
   
-  return post;
+  // ตัวอย่างการ return ข้อมูล
+  return { title, content, id: Date.now() };
 }`}
         showLineNumbers
       />
