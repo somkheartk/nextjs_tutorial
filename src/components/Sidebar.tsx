@@ -7,6 +7,7 @@ const navigation = [
   {
     title: 'เริ่มต้น',
     items: [
+      { title: 'พื้นฐานที่ต้องรู้', href: '/docs/basics' },
       { title: 'การติดตั้ง', href: '/docs/getting-started' },
     ],
   },

@@ -85,6 +85,12 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:gap-6">
             <Link
+              href="/docs/basics"
+              className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+            >
+              พื้นฐาน
+            </Link>
+            <Link
               href="/docs/getting-started"
               className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
             >
@@ -140,6 +146,12 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="md:hidden">
           <div className="space-y-1 border-t border-zinc-200 bg-white px-4 py-4 dark:border-zinc-800 dark:bg-zinc-900">
+            <Link
+              href="/docs/basics"
+              className="block rounded-md px-3 py-2 text-base font-medium text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-white"
+            >
+              พื้นฐาน
+            </Link>
             <Link
               href="/docs/getting-started"
               className="block rounded-md px-3 py-2 text-base font-medium text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-white"
