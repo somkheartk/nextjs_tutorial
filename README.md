@@ -12,11 +12,12 @@
 
 ## บทเรียนที่มี
 
-1. **เริ่มต้นใช้งาน** - การติดตั้งและตั้งค่าโปรเจค Next.js
-2. **การกำหนดเส้นทาง (Routing)** - ระบบ Routing ด้วย App Router
-3. **การดึงข้อมูล (Data Fetching)** - Server Components และ Client Components
-4. **API Routes** - การสร้าง API Endpoints
-5. **การจัดสไตล์ (Styling)** - CSS, Tailwind CSS และ CSS-in-JS
+1. **พื้นฐานที่ต้องรู้** - เรียนรู้พื้นฐาน React, Components, Props, State และ JSX
+2. **เริ่มต้นใช้งาน** - การติดตั้งและตั้งค่าโปรเจค Next.js
+3. **การกำหนดเส้นทาง (Routing)** - ระบบ Routing ด้วย App Router
+4. **การดึงข้อมูล (Data Fetching)** - Server Components และ Client Components
+5. **API Routes** - การสร้าง API Endpoints
+6. **การจัดสไตล์ (Styling)** - CSS, Tailwind CSS และ CSS-in-JS
 
 ## การติดตั้งและรัน
 

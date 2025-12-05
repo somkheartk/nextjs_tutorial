@@ -82,6 +82,12 @@ export default function Home() {
 
   const tutorials = [
     {
+      title: "พื้นฐานที่ต้องรู้",
+      description: "เรียนรู้พื้นฐาน React, Components, Props, State และ JSX",
+      href: "/docs/basics",
+      tag: "เริ่มต้น",
+    },
+    {
       title: "เริ่มต้นใช้งาน",
       description: "เรียนรู้การติดตั้งและตั้งค่าโปรเจค Next.js ใหม่",
       href: "/docs/getting-started",
@@ -209,7 +215,7 @@ export default function Home() {
 
             <div className="mt-10 flex items-center justify-center gap-4">
               <Link
-                href="/docs/getting-started"
+                href="/docs/basics"
                 className="rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
               >
                 เริ่มเรียนเลย
@@ -319,7 +325,7 @@ export default function Home() {
           </p>
           <div className="mt-8">
             <Link
-              href="/docs/getting-started"
+              href="/docs/basics"
               className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:bg-blue-700"
             >
               เริ่มเรียนเลย
